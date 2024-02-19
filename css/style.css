@@ -1,0 +1,498 @@
+@import url("../fonts/fonts.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1330px;
+    margin: auto
+}
+.text-center {
+    text-align: center;
+}
+.d-f {
+    width: 100%;
+    display: flex;
+}
+/* HEADER CSS START  */
+header {
+    width: 100%;
+    background-image: url('../images/Place1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hader-bgc {
+    width: 100%;    
+    background-color: #ffd17e61;
+}
+nav {
+    width: 100%;
+    background-color: #21243d;
+}
+.nav-flex {
+    justify-content: space-around;
+    padding: 15px 0; 
+}
+.nav-logo {
+    width: 20%;
+}
+.nav-menu {
+    width: 70%;
+    align-self: center;
+}
+.mobile-menu {
+	display: none;
+}
+.mobile-menu-block-item > a {
+	text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 32.5px;
+    transition-duration: 0.5s;
+}
+.toogle-menu {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.mobile-menu-block {
+	width: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #21243d;
+	transition: width 0.7s;
+	overflow: hidden;
+}
+.text-right {
+	text-align: right;
+}
+.mobile-menu-block label {
+	color: white;
+	cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.mobile-menu-block-item {
+	color: white;
+	list-style: none;
+}
+#toggle-menu:checked + .mobile-menu-block {
+	width: 180px;
+	padding: 16px;
+}
+
+.nav-search {
+    width: 5%;
+    align-self: center;
+}
+.nav-menu > ul > li {
+    display: inline;
+}
+.nav-menu > ul > li > a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 32.5px;
+    transition-duration: 0.5s;
+}
+.nav-menu > ul > li > a:hover {
+    color: aqua;
+}
+.header-title > h1 {
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 165px 0 75px;
+}
+.header-title > p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0px 573px 50px 0;
+}
+.header-title > a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    border-radius: 33px;
+    background-color: #21243d;  
+    display: inline-block;
+    text-decoration: none;
+    padding: 17.5px 75px;
+    margin-bottom: 100px;
+    transition-duration: 0.5s;
+}
+.header-title > a:hover {
+    color: aqua;
+    background-color: #2838c4;  
+}
+/* HEADER CSS END  */
+
+/* MAIN CSS START  */
+/* SECTION1 CSS START  */
+.section1 {
+    width: 100%;
+    background-color: #21243d;
+    background-image: url('../images/Shape.png'), url('../images/Shape2.png'), url('../images/Shape2.png'), url('../images/Shape3.png'),
+    url('../images/Shape4.png'), url('../images/Shape5.png');
+    background-repeat: no-repeat;
+    background-position: -67px 540px, 100% 745px, 37px 175px, 101% 375px, 183px -14px, 103% -31px;
+}
+.sectio1-title > h2 {   
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 90px 0 35px;
+}
+.sectio1-title > p {   
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 300px;
+}
+.section1-flex {
+    padding: 75px 0 130px;
+    justify-content: space-evenly;
+}
+.section1-block {
+    width: 30%;
+}
+.section1-block-img > img{
+    display: inline-block;
+    border-radius: 50%;
+}
+.section1-block-title > h4 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 25px 0 30px;
+}
+.section1-block-title > p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 60px;
+}
+/* SECTION1 CSS END  */
+
+/* SECTION2 CSS START  */
+.section2 {
+    width: 100%;
+    background-color: #ffd17e;
+    background-image: url('../images/Shape6.png'), url('../images/Shape6.png'), url('../images/Shape7.png'), url('../images/Shape8.png'),
+    url('../images/Shape9.png');
+    background-repeat: no-repeat;
+    background-position: 15px 600px, 97% 45px, 103% 605px, 50% 130px, 10px 142px;
+}
+.section2-flex {
+    padding: 190px 0 140px;
+    justify-content: space-evenly;
+}
+.section2-image, .secton2-title {
+    width: 43%;
+}
+.secton2-title {
+    align-self: center;
+}
+.section2-image > img {
+    display: inline-block;
+    border-radius: 50%;
+}
+.secton2-title > h2 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.secton2-title > p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 60px 0px 70px;
+}
+.secton2-title > a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    display: inline-block;
+    border-radius: 32px;
+    background-color: #21243d;
+    text-decoration: none;
+    padding: 17.5px 75px;
+    transition-duration: 0.5s;
+}
+.secton2-title > a:hover {
+    color: aqua;
+    background-color: #2838c4;  
+}
+/* SECTION2 CSS END  */
+
+/* SECTION3 CSS START  */
+.section3 {
+    width: 100%;
+    background-color: #21243d;
+    background-image: url('../images/Shape4.png'), url('../images/Shape2.png'), url('../images/Shape.png'), url('../images/Shape4.png'),
+    url('../images/Shape2.png'), url('../images/Shape5.png');
+    background-position: 90px 85px, 120px 263px, 325px 708px, 793px 691px, 1155px 701px, 1100px 111px;
+    background-repeat: no-repeat;
+}
+.section3-title > h3 { 
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 90px 0px 60px;
+}
+.section3-title > p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 310px 90px;
+}
+.section3-flex {
+    justify-content: space-evenly;
+    padding-bottom: 180px;
+}
+.section3-block {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 50px;
+}
+.section3-block > h4 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.section3-block > p {
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+/* SECTION3 CSS END  */
+
+/* SECTION4 CSS START  */
+.section4 {
+    width: 100%;
+    background-color: #ffd17e;
+    background-image: url('../images/Shape8.png'), url('../images/Shape7.png'), url('../images/Shape9.png'), url('../images/Shape6.png'),
+    url('../images/Shape10.png');
+    background-position: 59px 157px, 500px 620px, 1140px 122px, 1265px 590px, 500px 60px;
+    background-repeat: no-repeat;
+}
+.section4-flex {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 200px 0 140px;
+}
+.section4-title{
+    width: 50%;
+}
+.section4-image {
+    text-align: end;
+    width: 40%;
+}
+.section4-title > h4{
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.section4-title > p{
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 60px 10px 70px;
+}
+.section4-title > a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    border-radius: 32px;
+    background-color: #21243d;
+    padding: 17.5px 75px;
+    transition-duration: 0.5s;
+}
+.section4-title > a:hover {
+    color: aqua;
+    background-color: #2838c4;  
+}
+.section4-image > img{
+    display: inline-block;
+    border-radius: 50%;
+}
+/* SECTION4 CSS END  */
+
+/* SECTION5 CSS START  */
+.section5 {
+    width: 100%;
+    background-image: url('../images/Place7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section5-bgc {
+    background-color: #21243dde;
+}
+.section5-block {
+    padding: 135px 0;
+}
+.section5-block > img {
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.section5-block > h5 {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.section5-block > p {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 146px 50px;
+}
+/* SECTION5 CSS END  */
+
+/* SECTION6 CSS START  */
+.section6 {
+    width: 100%;
+    background-color: #ffd17e;
+    padding-bottom: 300px;
+    background-image: url('../images/Shape10.png'), url('../images/Shape8.png'), url('../images/Shape8.png'),
+    url('../images/Shape9.png'), url('../images/Shape6.png'), url('../images/Shape7.png');
+    background-position: 80px 90px, 100px 670px, 1000px 90px, 1210px 30px, 1160px 600px, 600px 635px;
+    background-repeat: no-repeat;
+}
+.section6-title > h3 {
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding: 160px 0 60px;
+}
+.section6-title > p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0 200px 80px;
+}
+.section6-input input {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    background-color: #ffffff;
+    padding: 14px 343px 15px 14px;
+    border-radius: 30px;
+}
+.section6-input button {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 33px;
+    background-color: #21243d;
+    padding: 15px 33px;
+    margin: 0 0 0 -150px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.section6-input button:hover {
+    color: aqua;
+    background-color: #2838c4;  
+}
+/* SECTION6 CSS END  */
+/* MAIN CSS END  */
+
+/* FOOTER CSS START  */
+footer {
+    background-color: #111111;
+}
+.footer-flex {
+    padding: 240px 0;
+    justify-content: space-between;
+}
+.footer-block1 {
+    width: 40%;
+}
+.footer-block1 > h5 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.footer-block1 > p {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 35px 10px 35px 0;
+}
+.footer-icon img {
+    padding: 0 5px;
+}
+.footer-blocks {
+    width: 17%;
+}
+.footer-blocks > h5 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 0px 0 35px;
+}
+.footer-blocks li {
+    list-style: none;
+}
+.footer-blocks a {
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.footer-blocks a:hover {
+    color: orange;
+}
+/* FOOTER CSS END  */
